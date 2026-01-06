@@ -1,0 +1,54 @@
+# ============================================
+# .GITIGNORE for BINSAI Research Project
+# ============================================
+
+# PlatformIO files
+.pio/
+.pioenvs/
+.piolibdeps/
+.pio/build/
+
+# VS Code files
+.vscode/
+*.code-workspace
+
+# IDE files
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets file (JANGAN PERNAH UPLOAD!)
+include/secrets.h
+data/config.json
+
+# Logs
+*.log
+logs/
+
+# Compiled files
+*.elf
+*.bin
+*.hex
+
+# Backup files
+*.bak
+*~
+
+# Temporary files
+tmp/
+temp/
+
+# PlatformIO local files
+platformio.ini.local
+
+# Environment variables
+.env
+.env.local
+
+# Documentation build
+docs/_build/
+docs/build/
