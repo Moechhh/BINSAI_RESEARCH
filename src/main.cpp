@@ -45,11 +45,10 @@
 
 // ============ WIRING DIAGRAM (POWER MANAGEMENT) ============
 /*
-POWER BANK 10000mAh (Dual USB Output):
+Battery 9V, dengan modul XL4015 step-down with heat sink
 ┌─────────────────────────────────────────────┐
-│ USB1 (micro USB) → ESP32 (5V)              │
-│ USB2 (USB to DC jack) → SIM800L (5V→4V)    │
-│ GND: Semua GND disatukan (common ground)   │
+│ PIN OUT (+) → ESP32 (5V) & SIM800L (5VIN)   │
+│ PIN OUT (-) → GND ESP32 & GND POWER SIM800L │
 └─────────────────────────────────────────────┘
 
 SENSOR WIRING:
