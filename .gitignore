@@ -21,7 +21,7 @@
 .DS_Store
 Thumbs.db
 
-# Secrets file (JANGAN PERNAH UPLOAD!)
+# Secrets file
 include/secrets.h
 data/config.json
 
