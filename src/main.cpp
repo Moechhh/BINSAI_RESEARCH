@@ -1,7 +1,7 @@
 // BLYNK CONFIGURATION
-#define BLYNK_TEMPLATE_ID "TMPL6RvIxrbhK"
-#define BLYNK_TEMPLATE_NAME "BINSAI"
-#define BLYNK_AUTH_TOKEN "cbbsHBuQ4EfVQkyoryQbnBJBwuY3bzy9" // GANTI DENGAN TOKEN ANDA
+#define BLYNK_TEMPLATE_ID "YOUR_ BLYNK_TEMPLATE_ID"
+#define BLYNK_TEMPLATE_NAME "YOUR_BLYNK_TEMPLATE_NAME"
+#define BLYNK_AUTH_TOKEN "YOUR_BLYNK_AUTH_TOKEN" // GANTI DENGAN TOKEN ANDA
 
 // LIBRARIES
 #include <WiFi.h>
@@ -162,7 +162,7 @@ TinyGPSPlus gps;
 // Blynk Timer
 BlynkTimer timer;
 
-// ============ VIRTUAL PIN MAPPING (BLYNK) ============
+// ============ VIRTUAL PIN MAPPING (BLYNK)============
 /*
 Datastream Configuration in Blynk Cloud:
 ┌─────────────────────────────────────────────────────────────┐
@@ -199,7 +199,7 @@ Widget Recommendations:
 void setup() {
   Serial.begin(115200);
   Serial.println("\n=================================");
-  Serial.println("BINSAI - SMART WASTE SYSTEM");
+  Serial.println("BINSAI- SMART WASTE SYSTEM");
   Serial.println("For ISPO Research Level");
   Serial.println("=================================");
   
