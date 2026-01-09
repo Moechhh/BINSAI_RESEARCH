@@ -1,4 +1,3 @@
-// test/mq135_calibration.cpp
 #include <Arduino.h>
 
 const int MQ_PIN = 34;
