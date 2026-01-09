@@ -1,19 +1,23 @@
-// ============================================================
-// BINSAI V2.0 - SMART WASTE MANAGEMENT SYSTEM
-// ============================================================
+// BLYNK CONFIGURATION
+#define BLYNK_TEMPLATE_ID "TMPL6RvIxrbhK"
+#define BLYNK_TEMPLATE_NAME "BINSAI"
+#define BLYNK_AUTH_TOKEN "cbbsHBuQ4EfVQkyoryQbnBJBwuY3bzy9" // GANTI DENGAN TOKEN ANDA
 
-#include <Arduino.h>
+// LIBRARIES
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
-#include <BlynkSimpleEsp32_SSL.h>
+#include <BlynkSimpleEsp32_SSL.h>  // Blynk dengan SSL
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 #include <TinyGPSPlus.h>
 #include <HardwareSerial.h>
-#include <Preferences.h>
-
+#include <Preferences.h>           // Pengganti EEPROM yang aman
 // Include file secrets (aman)
 #include "secrets.h"
+
+// ============ SECRETS MANAGEMENT ============
+// File terpisah "secrets.h" untuk keamanan (simpan di .gitignore)
+// #include "secrets.h"  // Uncomment setelah membuat file
 
 // ============ PIN DEFINITION (ESP32) ============
 // HC-SR04 Ultrasonic
@@ -77,7 +81,7 @@ SENSOR WIRING:
    RX  → GPIO15 (TX1 ESP32)
 
 5. SIM800L:
-   VCC     → 4V dari regulator step-down
+   5VIN     → 4V dari regulator step-down
    GND     → Common ground
    TX      → GPIO16 (RX2 ESP32)
    RX      → GPIO17 (TX2 ESP32)
@@ -158,7 +162,7 @@ TinyGPSPlus gps;
 // Blynk Timer
 BlynkTimer timer;
 
-// ============ VIRTUAL PIN MAPPING (BLYNK IoT v2.0) ============
+// ============ VIRTUAL PIN MAPPING (BLYNK) ============
 /*
 Datastream Configuration in Blynk Cloud:
 ┌─────────────────────────────────────────────────────────────┐
@@ -195,7 +199,7 @@ Widget Recommendations:
 void setup() {
   Serial.begin(115200);
   Serial.println("\n=================================");
-  Serial.println("BINSAI V2.0 - SMART WASTE SYSTEM");
+  Serial.println("BINSAI - SMART WASTE SYSTEM");
   Serial.println("For ISPO Research Level");
   Serial.println("=================================");
   
@@ -227,7 +231,7 @@ void setup() {
   Serial.println("All systems are GO for research deployment");
   
   lcd.clear();
-  lcd.print("BINSAI V2.0");
+  lcd.print("BINSAI");
   lcd.setCursor(0, 1);
   lcd.print("Research Ready");
   delay(2000);
@@ -284,7 +288,7 @@ void initLCD() {
       Serial.println(addr, HEX);
       
       lcd.clear();
-      lcd.print("BINSAI V2.0");
+      lcd.print("BINSAI");
       lcd.setCursor(0, 1);
       lcd.print("Initializing...");
       break;
@@ -1117,7 +1121,3 @@ void logResearchData() {
     // atau upload ke Google Sheets/ThingSpeak
   }
 }
-
-// =============================================
-// END OF CODE - BINSAI V2.0
-// =============================================
