@@ -7,8 +7,8 @@ BINSAI (Bin Intelligence Sensor and Internet) is an IoT-based smart waste monito
 
 ### **Who developed BINSAI?**
 BINSAI was developed by:
-- **Muhammad Khoirul Wafi** (Hardware Architecture & System Integration)
-- **Muhammad Muchib Chairulfata** (Software Development & IoT Implementation)
+- **Muhammad Khoirul Wafi**
+- **Muhammad Muchib Chairulfata**
 
 From MAS Assalafiyyah Mlangi Sleman, as part of the ISPO 2026 (Indonesian Science Project Olympiad) competition.
 
