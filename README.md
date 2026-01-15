@@ -65,7 +65,7 @@
 
 ## 🚀 Quick Start Guide
 ### **Prerequisites**
-- Hardware components (see [`docs/BOM.md`](docs/BOM.md))
+- Hardware components (see [`BOM.md`](docs/hardware/BOM.md))
 - Software:
   ```bash
   # Core development tools
