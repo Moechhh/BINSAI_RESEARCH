@@ -174,7 +174,7 @@ BINSAI_RESEARCH/
 ```
 
 ## 📄 Documentation
-- **[Full Research Paper](docs/research/ISPO_2026_Paper.pdf)** - Complete methodology and results
+- **[Full Research Paper](docs/research/.pdf)** - Complete methodology and results
 - **[Hardware Manual](docs/hardware/ASSEMBLY_GUIDE.md)** - Step-by-step assembly instructions
 - **[API Reference](docs/api/DATA_PROTOCOL.md)** - Telemetry data specifications
 - **[Deployment Guide](docs/deployment/URBAN_DEPLOYMENT.md)** - Municipal-scale implementation
