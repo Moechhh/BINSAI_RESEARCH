@@ -209,7 +209,6 @@ Special Region of Yogyakarta, Indonesia
 *Available upon request for research collaboration*
 
 **Email:** research.binsai@protonmail.com  
-**Twitter:** [@BINSAI_Research](https://twitter.com/BINSAI_Research)
 
 ---
 
