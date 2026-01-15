@@ -1,0 +1,35 @@
+{
+    "title": "BINSAI: Integrated IoT-Based Smart Waste Management System using Non-Contact Ultrasonic Sensing and Ammonia Detection",
+    "description": "BINSAI (Bin Intelligence Sensor and Internet) is an IoT-based research project designed to optimize urban waste management. The system utilizes ESP32, HC-SR04 ultrasonic sensors for non-contact volume monitoring, and MQ-135 sensors for ammonia gas detection (organic waste decomposition). Integrated with GPS NEO-6M and SIM800L for real-time telemetry and geolocation, the data is visualized via the Blynk mobile platform to support Smart City initiatives in Yogyakarta.",
+    "upload_type": "software",
+    "creators": [
+        {
+            "name": "Wafi, Mukhammad Khoirul",
+            "affiliation": "MAS Assalafiyyah Mlangi Sleman"
+        },
+        {
+            "name": "Chairulfata, Muhammad Muchib",
+            "affiliation": "MAS Assalafiyyah Mlangi Sleman",
+            "orcid": "0009-0005-8396-1038"
+        }
+    ],
+    "keywords": [
+        "Internet of Things",
+        "Smart Waste Management",
+        "ESP32",
+        "Environmental Monitoring",
+        "Ammonia Sensing",
+        "Smart City",
+        "Yogyakarta"
+    ],
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "communities": [
+        {
+            "identifier": "iot-research"
+        },
+        {
+            "identifier": "smart-cities"
+        }
+    ]
+}
