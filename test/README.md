@@ -56,8 +56,8 @@ Purpose: Test SMS transmission reliability and network connectivity.
 
 ## Test Results Format
 All tests generate structured JSON output:
-```
-json
+
+json ```
 {
   "test_name": "mq135_calibration",
   "timestamp": "2026-01-16T10:30:00Z",
