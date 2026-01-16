@@ -3,7 +3,7 @@
     "description": "BINSAI (Bin Intelligence Sensor and Internet) is an IoT-based smart waste monitoring system developed to address the waste management crisis in Yogyakarta, Indonesia. The system integrates ESP32 microcontroller with HC-SR04 ultrasonic sensors for non-contact volume monitoring and MQ-135 gas sensors for ammonia detection (indicating organic waste decomposition). With integrated GPS NEO-6M for geolocation and SIM800L GSM module for redundant communication, the system provides real-time telemetry visualized through the Blynk mobile platform. This research validates a modular, scalable solution achieving 99.46% volumetric accuracy and 100% notification reliability, contributing to smart city infrastructure development and Sustainable Development Goals (SDGs).",
     "upload_type": "software",
     "publication_type": "researchpaper",
-    "publication_date": "2026-01-15",
+    "publication_date": "2026-01-16",
     "creators": [
         {
             "name": "Wafi, Mukhammad Khoirul",
@@ -63,9 +63,9 @@
             "scheme": "url"
         },
         {
-            "identifier": "https://doi.org/10.5281/zenodo.XXXXXXX",
-            "relation": "isVersionOf",
-            "resource_type": "publication",
+            "identifier": "10.5281/zenodo.XXXXXXX",  // GANTI dengan DOI v1 yang sudah ada!
+            "relation": "isPreviousVersionOf",
+            "resource_type": "software",
             "scheme": "doi"
         }
     ],
@@ -93,7 +93,7 @@
             "funder": "ISPO Foundation"
         }
     ],
-    "notes": "This research was conducted as part of the Indonesian Science Project Olympiad (ISPO) 2026 competition. The system addresses the waste management crisis at Piyungan Landfill, Yogyakarta, with limited 600-ton monthly quota versus 300-ton daily waste generation.",
+    "notes": "Version 2.0 includes improved sensor calibration algorithms, enhanced GPS stability, and modular deployment features. This research was conducted as part of the Indonesian Science Project Olympiad (ISPO) 2026 competition. The system addresses the waste management crisis at Piyungan Landfill, Yogyakarta, with limited 600-ton monthly quota versus 300-ton daily waste generation.",
     "references": [
         "Adminwarta. (2025). City Anniversary Becomes Momentum for Changing Focus on Waste Management.",
         "Arifin, Z. (2024). Urban waste time bomb. Kompas.id.",
@@ -111,7 +111,7 @@
         "validation_methods": ["Sensor accuracy testing", "Statistical regression analysis", "Field deployment validation"]
     },
     "technical_specifications": {
-        "microcontroller": "ESP32 DevKit v1 (Dual-core, Wi-Fi/Bluetooth)",
+        "microcontroller": "ESP32 DevKit v1 (Dual-core, Wi-Fi/Bluetooth 4.2)",
         "sensors": ["HC-SR04 Ultrasonic (99.46% accuracy)", "MQ-135 Gas (R²=0.987)", "NEO-6M GPS (99.99% accuracy)", "SIM800L GSM"],
         "communication": ["Wi-Fi 802.11 b/g/n", "GSM/GPRS 850/900/1800/1900MHz", "Blynk IoT Platform"],
         "power": "10,000mAh power bank, 5V/3A output",
@@ -130,6 +130,6 @@
         "economic": ["25% operational cost reduction", "61.7% annual ROI", "19.5-month payback period"],
         "social": ["Enhanced public health", "Community awareness improvement", "Tourism area cleanliness"]
     },
-    "version": "2.0",
+    "version": "2.0.0",  // PERUBAHAN PENTING: Format semver
     "language": "en"
 }
