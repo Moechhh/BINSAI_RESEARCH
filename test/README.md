@@ -93,6 +93,6 @@ Calibration failure: Ensure clean air environment
 Test timeout: Increase test duration in configuration
 
 ## Documentation
-[Full Calibration Protocol](https://docs/calibration_protocol.md)
-[Test Case Specifications](https://docs/test_specifications.md)
-[Troubleshooting Guide](https://docs/troubleshooting.md)
+- [Full Calibration Protocol](https://docs/calibration_protocol.md)
+- [Test Case Specifications](https://docs/test_specifications.md)
+- [Troubleshooting Guide](https://docs/troubleshooting.md)
