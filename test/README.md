@@ -35,8 +35,6 @@ Purpose: Determine baseline resistance (R₀) in clean air and establish PPM con
 
 `integration/mq135_calibration.cpp` - Full calibration procedure
 
-`scripts/analyze_calibration.py` - Data analysis and model fitting
-
 ## Procedure:
 
 Pre-heat sensor for 24 hours in clean air
@@ -58,7 +56,7 @@ Purpose: Test SMS transmission reliability and network connectivity.
 
 ## Test Results Format
 All tests generate structured JSON output:
-
+```
 json
 {
   "test_name": "mq135_calibration",
@@ -73,6 +71,8 @@ json
     "calibration_status": "PASS"
   }
 }
+```
+
 ## Adding New Tests
 Create test file in appropriate category folder
 
