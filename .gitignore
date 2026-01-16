@@ -1,54 +1,128 @@
 # ============================================
-# .GITIGNORE for BINSAI Research Project
+# .GITIGNORE for BINSAI IoT Research Project
+# ISPO 2026 - Smart Waste Management System
 # ============================================
 
-# PlatformIO files
+# PlatformIO Development Files
 .pio/
 .pioenvs/
 .piolibdeps/
 .pio/build/
+.pio/libdeps/
+.pio/penv/
+.pio/remote/
 
-# VS Code files
+# IDE and Editor Files
 .vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 *.code-workspace
-
-# IDE files
 .idea/
 *.swp
 *.swo
+*~
+*.orig
 
-# OS files
+# Operating System Files
 .DS_Store
 Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
 
-# Secrets file
+# Security Sensitive Files
 include/secrets.h
 data/config.json
+.env
+.env.local
+.env.*
+secrets.ini
+credentials/*
+*.key
+*.pem
+*.cert
+*.p12
 
-# Logs
-*.log
-logs/
-
-# Compiled files
+# Compiled Binary Files
 *.elf
 *.bin
 *.hex
+*.a
+*.o
+*.so
+*.dylib
+*.dll
 
-# Backup files
-*.bak
-*~
+# Log Files
+*.log
+logs/
+debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Temporary files
-tmp/
-temp/
-
-# PlatformIO local files
-platformio.ini.local
-
-# Environment variables
-.env
-.env.local
-
-# Documentation build
+# Documentation Build Output
 docs/_build/
 docs/build/
+docs/_site/
+site/
+
+# Python Cache and Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Data Files (Large datasets should be in datasets/ but git-lfs for large files)
+datasets/raw/
+datasets/processed/temp/
+*.csv
+*.xlsx
+*.feather
+*.parquet
+
+# PlatformIO Project Specific
+.project
+.cproject
+.settings/
+.launch
+.travis.yml
+.appveyor.yml
+
+# Test Coverage Reports
+coverage/
+.nyc_output
+
+# Espressif IDF
+sdkconfig
+sdkconfig.old
+
+# Blynk Cache
+.blynk/
+
+# MATLAB Files
+*.asv
+*.m~
+
+# Research Temporary Files
+analysis/temp/
+figures/draft/
+paper/temp/
+
+# System Specific
+*.pid
+*.seed
+*.pid.lock
