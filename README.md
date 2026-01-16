@@ -7,10 +7,10 @@
 [![Documentation Status](https://img.shields.io/badge/Docs-Complete-green.svg)](docs/)
 [![DOI: 10.5281/zenodo.XXXXXXX](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
-## 📋 Abstract
+## Abstract
 **BINSAI (Bin Intelligence Sensor and Internet)** is an integrated IoT monitoring system designed to address the waste management crisis in Yogyakarta, Indonesia. The system implements **multimodal sensor fusion** (ultrasonic distance + gas concentration) with **adaptive threshold algorithms** to optimize waste collection logistics through real-time telemetry and priority-based notifications. This research presents a modular, open-source architecture validated with 99.46% volumetric accuracy and 100% notification reliability.
 
-## 🎯 Research Significance
+## Research Significance
 ### **Novel Contributions**
 | Aspect | Innovation | Impact |
 |--------|------------|--------|
@@ -19,7 +19,7 @@
 | **Data Pipeline** | Dual-Channel Communication (Wi-Fi + GSM Fallback) | Ensures 100% notification delivery even in network-challenged environments |
 | **Policy Support** | Time-Series Dataset Generation | Enables evidence-based waste management policy formulation |
 
-## 🏗️ System Architecture
+## System Architecture
 ### **Hardware Specifications**
 | Component | Model | Function | Key Parameters |
 |-----------|-------|----------|----------------|
@@ -63,7 +63,7 @@
 | **GPS Accuracy** | 99.99% | Comparison with Google Maps reference | Provides ±0.5m geolocation precision |
 | **Deployment Time** | <10 minutes | Modular unit installation | Enables rapid response to volume fluctuations |
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 ### **Prerequisites**
 - Hardware components (see [`BOM.md`](docs/hardware/BOM.md))
 - Software:
@@ -115,7 +115,7 @@ pio device monitor
    # Configure datastreams (V0-V21) as per docs/datastreams.md
    ```
 
-## 📈 Data Flow & API
+## Data Flow & API
 ### **Telemetry Endpoints**
 | Datastream | Virtual Pin | Data Type | Description |
 |------------|-------------|-----------|-------------|
@@ -133,7 +133,7 @@ Location: https://maps.google.com/?q=LAT,LONG
 Priority: URGENT - Organic decomposition detected
 ```
 
-## 🔬 Research Methodology
+## Research Methodology
 This study employs a **Research and Development (R&D)** approach with the following phases:
 
 1. **Problem Analysis** (September 2025)
@@ -152,7 +152,7 @@ This study employs a **Research and Development (R&D)** approach with the follow
    - Statistical validation using Python (pandas, scikit-learn)
    - Comparative analysis with conventional systems
 
-## 📂 Repository Structure
+## Repository Structure
 ```
 BINSAI_RESEARCH/
 ├── firmware/           # ESP32 source code
@@ -179,13 +179,13 @@ BINSAI_RESEARCH/
 - **[API Reference](docs/api/DATA_PROTOCOL.md)** - Telemetry data specifications
 - **[Deployment Guide](docs/deployment/URBAN_DEPLOYMENT.md)** - Municipal-scale implementation
 
-## 🏆 Competition Recognition
+## Competition Recognition
 This research was selected as a **National Finalist in ISPO 2026** (Indonesian Science Project Olympiad) and has been presented to:
 - **DLHK DIY** (Regional Environmental Office)
 - **Yogyakarta City Planning Department**
 - **Indonesian IoT Association**
 
-## 🤝 Contributing
+## Contributing
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) and:
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -193,10 +193,10 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📜 License
+## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Contact & Collaboration
+## Contact & Collaboration
 **Research Team:**
 - **Muhammad Khoirul Wafi**
 - **Muhammad Muchib Chairulfata**
@@ -212,7 +212,7 @@ Special Region of Yogyakarta, Indonesia
 
 ---
 
-## 🔗 Related Research
+## Related Research
 - **Comparative Study:** [Smart Waste Management in Southeast Asia](https://doi.org/10.3390/su141610012)
 - **Technical Reference:** [ESP32 IoT Implementation Guide](https://docs.espressif.com)
 - **Policy Framework:** [Yogyakarta Smart City Masterplan 2025](https://jogjakota.go.id)
