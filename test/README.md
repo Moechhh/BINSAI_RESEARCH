@@ -33,10 +33,10 @@ Purpose: Determine baseline resistance (R₀) in clean air and establish PPM con
 
 ## Files:
 
-- [`GPS NEO-6M`](integration/gps-neo6m_check.cpp) - Get for lat & lang coordinat
-- [`HC-SR04 TESTING`](integration/hc-sr04_ultrasonic_handler.cpp) - Ultrasonic sensor test procedure
-- [`MQ-135 CALIBRATION`](integration/mq135_calibration.cpp) - Full calibration gas sensor procedure
-- [`SIM800L TEST`](integration/sim800l_validation.cpp) - Testing SIM800L for sending a massage
+- GPS Module: [NEO-6M](integration/gps-neo6m_check.cpp) - Get for lat & lang coordinat
+- Ultrasonic Sensor Module: [HC-SR04 TESTING](integration/hc-sr04_ultrasonic_handler.cpp) - Ultrasonic sensor test procedure
+- Gas Sensor Module: [MQ-135 CALIBRATION](integration/mq135_calibration.cpp) - Full calibration gas sensor procedure
+- GSM Module: [SIM800L TEST](integration/sim800l_validation.cpp) - Testing SIM800L for sending a massage
 
 ## Procedure:
 
