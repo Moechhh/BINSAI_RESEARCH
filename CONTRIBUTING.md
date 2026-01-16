@@ -1,40 +1,38 @@
 # Contributing to BINSAI Research
 
-We love your input! We want to make contributing to BINSAI as easy and transparent as possible.
-
 ## Development Process
-We use GitHub to host code, to track issues and feature requests, as well as accept pull requests.
+We use GitHub to host code, track issues, and accept pull requests.
 
-## Pull Requests
-1. Fork the repo and create your branch from `main`.
-2. If you've added code that should be tested, add tests.
-3. If you've changed APIs, update the documentation.
-4. Ensure the test suite passes.
-5. Make sure your code lints.
-6. Issue that pull request!
+## Pull Request Process
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request using our template
 
-## Any contributions you make will be under the MIT Software License
-In short, when you submit code changes, your submissions are understood to be under the same [MIT License](http://choosealicense.com/licenses/mit/) that covers the project. Feel free to contact the maintainers if that's a concern.
+## Pull Request Template
+### Description
+Brief description of changes
 
-## Report bugs using Github's [issues](https://github.com/Moechhh/BINSAI_RESEARCH/blob/main/ISSUES.md)
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](); it's that easy!
+### Type of Change
+- [ ] Bug fix
+- [ ] New feature
+- [ ] Documentation update
+- [ ] Research data addition
 
-## Write bug reports with detail, background, and sample code
+### Testing
+- [ ] Unit tests pass
+- [ ] Hardware integration tested
+- [ ] Documentation updated
 
-**Great Bug Reports** tend to have:
+## Report Bugs
+Use GitHub's [issues](https://github.com/Moechhh/BINSAI_RESEARCH/issues)
+with our bug report template.
 
-- A quick summary and/or background
-- Steps to reproduce
-  - Be specific!
-  - Give sample code if you can.
-- What you expected would happen
-- What actually happens
-- Notes (possibly including why you think this might be happening, or stuff you tried that didn't work)
-
-## Use a Consistent Coding Style
-* Use 2 spaces for indentation in C++ files
-* Use meaningful variable names
-* Comment your code, especially in complex sections
+## Coding Style
+* 2-space indentation for C++
+* Meaningful variable names
+* Doxygen-style comments for complex functions
 
 ## License
-By contributing, you agree that your contributions will be licensed under its MIT License.
+By contributing, you agree to MIT License terms.
