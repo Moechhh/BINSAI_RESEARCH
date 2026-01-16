@@ -1,7 +1,7 @@
 # BINSAI: IoT-Based Smart Waste Management System  
 > **Revolutionizing Waste Management Through Intelligent Telemetry and Modular Architecture**
 
-[![ISPO 2026 Finalist](https://img.shields.io/badge/Competition-ISPO%202026%20Finalist-blue.svg)](https://ispo.or.id)
+[![ISPO 2026 Finalis](https://img.shields.io/badge/Competition-ISPO%202026%20Finalist-blue.svg)](https://ispo.or.id)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Framework: PlatformIO](https://img.shields.io/badge/Framework-PlatformIO-orange.svg)](https://platformio.org)
 [![Documentation Status](https://img.shields.io/badge/Docs-Complete-green.svg)](docs/)
