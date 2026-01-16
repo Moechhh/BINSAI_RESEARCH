@@ -53,7 +53,7 @@
 └─────────────────────────────────────────────────────┘
 ```
 
-## 📊 Performance Validation
+## Performance Validation
 ### **Experimental Results**
 | Metric | Value | Method | Significance |
 |--------|-------|--------|--------------|
@@ -85,7 +85,7 @@
    ```bash
    # Refer to Appendix 1 (Pin Mapping Table)
    HC-SR04: Trig=GPIO5, Echo=GPIO18
-   MQ-135: AOUT=GPIO34, VCC=3.3V
+   MQ-135: AOUT=GPIO34, VCC=5V
    ```
 
 ### **Firmware Deployment**
@@ -136,26 +136,27 @@ Priority: URGENT - Organic decomposition detected
 ## Research Methodology
 This study employs a **Research and Development (R&D)** approach with the following phases:
 
-1. **Problem Analysis** (September 2025)
-   - Field survey of waste accumulation patterns
-   - Stakeholder interviews with DLHK Yogyakarta
+1. **September 2025**: Problem Identification and Theoretical Framework
+Conducted comprehensive analysis of Yogyakarta's waste management crisis, establishing IoT-based Cyber-Physical Systems as theoretical foundation and developing adaptive threshold algorithms for waste classification.
 
-2. **Prototype Development** (October-November 2025)
-   - Hardware design and fabrication
-   - Firmware development with adaptive algorithms
+2. **October 2025**: System Architecture and Prototype Development
+Designed multimodal sensor integration with ESP32 microcontroller, implemented tiered response algorithms, and developed hardware-software prototype with Blynk IoT platform integration.
 
-3. **Validation & Testing** (December 2025)
-   - Laboratory calibration (n=100 measurements)
-   - Field testing at MAS Assalafiyyah Mlangi
+3. **November 2025**: Laboratory Validation and Algorithm Optimization
+Performed rigorous sensor calibration achieving 99.46% volumetric accuracy and R²=0.987 or 98,7% regression testing for gas detection, while refining adaptive threshold algorithms and power management systems.
 
-4. **Data Analysis** (January 2026)
-   - Statistical validation using Python (pandas, scikit-learn)
-   - Comparative analysis with conventional systems
+4. **December 2025**: Field Deployment and Performance Evaluation
+Executed 30-day pilot deployment at MAS Assalafiyyah Mlangi, collecting 1.3 million data points and demonstrating 100% notification reliability with 40% reduction in unnecessary collections.
+
+5. **January 2026**: Data Synthesis and Impact Assessment
+Conducted statistical analysis validating system efficacy, performed economic ROI analysis (61.7% annual return), and prepared comprehensive research documentation for dissemination.
+
+**Methodological Rigor**: This structured approach ensured systematic progression from theoretical formulation through empirical validation to practical implementation, maintaining academic rigor while addressing real-world urban waste management challenges.
 
 ## Repository Structure
 ```
 BINSAI_RESEARCH/
-├── firmware/           # ESP32 source code
+├── firmware/          # ESP32 source code
 │   ├── src/           # Main application logic
 │   ├── include/       # Libraries and configurations
 │   └── test/          # Unit tests
@@ -173,14 +174,14 @@ BINSAI_RESEARCH/
 └── analysis/          # Python notebooks for data analysis
 ```
 
-## 📄 Documentation
-- **[Full Research Paper](docs/research/.pdf)** - Complete methodology and results
+## Documentation
+- **[Full Research Paper](docs/research/BINSAI_RESEARCH_ENG.pdf)** - Complete methodology and results
 - **[Hardware Manual](docs/hardware/ASSEMBLY_GUIDE.md)** - Step-by-step assembly instructions
 - **[API Reference](docs/api/DATA_PROTOCOL.md)** - Telemetry data specifications
 - **[Deployment Guide](docs/deployment/URBAN_DEPLOYMENT.md)** - Municipal-scale implementation
 
 ## Competition Recognition
-This research was selected as a **National Finalist in ISPO 2026** (Indonesian Science Project Olympiad) and has been presented to:
+This research was selected as a **National Finalist in ISPO 2026** (Indonesian Science Project Olympiad) and this research perhaps continued by presenting it to:
 - **DLHK DIY** (Regional Environmental Office)
 - **Yogyakarta City Planning Department**
 - **Indonesian IoT Association**
