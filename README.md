@@ -1,14 +1,16 @@
 # BINSAI: IoT-Based Smart Waste Management System  
 > **Revolutionizing Waste Management Through Intelligent Telemetry and Modular Architecture**
 
-[![ISPO 2026 Finalis](https://img.shields.io/badge/Competition-ISPO%202026%20Finalist-blue.svg)](https://ispo.or.id)
+[![ISPO 2026 Finalis](https://img.shields.io/badge/Competition-ISPO%202026%20Finalis-blue.svg)](https://ispo.or.id)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Framework: PlatformIO](https://img.shields.io/badge/Framework-PlatformIO-orange.svg)](https://platformio.org)
 [![Documentation Status](https://img.shields.io/badge/Docs-Complete-green.svg)](docs/)
 [![DOI: 10.5281/zenodo.XXXXXXX](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
 ## Abstract
-**BINSAI (Bin Intelligence Sensor and Internet)** is an integrated IoT monitoring system designed to address the waste management crisis in Yogyakarta, Indonesia. The system implements **multimodal sensor fusion** (ultrasonic distance + gas concentration) with **adaptive threshold algorithms** to optimize waste collection logistics through real-time telemetry and priority-based notifications. This research presents a modular, open-source architecture validated with 99.46% volumetric accuracy and 100% notification reliability.
+The problem of waste accumulation in urban areas, particularly in the city of Yogyakarta due to the limited capacity of the Piyungan landfill, requires a more intelligent and responsive management approach. This study aims to develop and test **`BINSAI (Bin Intelligence Sensor and Internet)`**, a prototype of an integrated Internet of Things (IoT)-based waste bin monitoring system. This system is designed to optimize waste transportation operations through real-time monitoring of capacity and indications of organic waste decomposition. The research method uses a **`Research and Development (R&D)`** approach utilizing an ESP32 microcontroller integrated with an `HC-SR04 ultrasonic sensor` for volume measurement and an `MQ-135 gas sensor` to detect ammonia concentration. The data is processed and transmitted to the `Blynk platform` for visualization, while the `GSM SIM800L` and `GPS NEO-6M` modules provide priority notifications and location tracking via SMS when critical conditions are detected. Test results show that the ultrasonic sensor has an accuracy of **`99.46%`**, the gas detection model has a validity **`(R² = 0.987)`**, and notification transmission has a **`reliability of 100%`**. The modular smart bin concept allows for flexible implementation in public areas with high volume fluctuations. This study concludes that BINSAI has the potential to be a transformative solution in supporting smart waste management, improving operational efficiency, and contributing to reducing landfill burden. All technical documentation and source code are published openly on the `GitHub repository` to ensure transparency and sustainability of development.
+Keywords: *Smart Waste Management*, *Internet of Things (IoT)*, *Ultrasonic Sensor*, *Gas Sensor*, *Blynk*, *Modularity*, *Yogyakarta City*.
+
 
 ## Research Significance
 ### **Novel Contributions**
